@@ -3,7 +3,7 @@ import './App.css';
 import { Cards } from './Cards';
 
 
-const API_URL = ' http://www.omdbapi.com/?i=tt3896198&apikey=1b86fab1';
+const API_URL = ' https://www.omdbapi.com/?i=tt3896198&apikey=1b86fab1';
 const App = () => {
     const [movies,setMovies] = useState([]);
     const [searcht,setSearcht] = useState('');
